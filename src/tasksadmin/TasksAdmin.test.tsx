@@ -1,10 +1,10 @@
-import { render, screen } from "@testing-library/react";
-import TasksAdmin from "./TasksAdmin";
+import { render, screen } from '@testing-library/react';
+import TasksAdmin from './TasksAdmin';
 
-describe("tasks admin page", () => {
-  it("displays tasks text", () => {
+describe('tasks admin page', () => {
+  it('displays tasks text', () => {
     render(<TasksAdmin />);
 
-    expect(screen.getByText("Tasks")).toBeInTheDocument();
+    expect(screen.getByText('Tasks')).toBeInTheDocument();
   });
 });
