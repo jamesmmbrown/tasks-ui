@@ -1,3 +1,3 @@
 export default function TasksAdmin() {
-    return <p>Tasks</p>;
+  return <p>Tasks</p>;
 }
