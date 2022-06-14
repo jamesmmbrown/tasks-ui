@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const RestClient = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL,
+  baseURL: "https://palm-tasks-api.herokuapp.com"
 });
 
 export default RestClient;
